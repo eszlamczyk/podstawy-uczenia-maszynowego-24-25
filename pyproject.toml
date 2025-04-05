@@ -20,7 +20,8 @@ dependencies = [
     "seaborn",
     "sentence_transformers",
     "torch",
-    "tqdm"
+    "tqdm",
+    "numpy<=2.1"
 ]
 
 [dependency-groups]
@@ -42,3 +43,6 @@ ignore = [
     "E731",  # lambda expressions
 ]
 exclude = ["**notebook.ipynb"]
+
+[tool.poetry]
+package-mode = false
